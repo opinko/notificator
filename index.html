@@ -1,45 +1,3 @@
-PhoneGap & Cordova plugins list
-
-    Authors
-    Keywords
-    Platforms
-
-Background Services
-A plugin (and framework code) that allows the development and operation of an Android Background Service.
-phpsa3.322
-View on GitHub
-Issues
-Report Issue
-All author plugins
-platforms: android
-
-$ cordova plugin add com.red_folder.phonegap.plugin.backgroundservice
-
-cbsp
-
-Cordova Background Services Plugin based on
-https://github.com/Red-Folder/Cordova-Plugin-BackgroundService
-, A plugin (and framework code) that allows the development and operation of an Android Background Service.
-
-The example MyService Background Service will write a Hello message to the LogCat every minute. The MyService is designed as sample code.
-
-Once installed you will need to edit the com.red_folder.phonegap.plugin.backgroundservice.MyService.java file to make changes.
-
-If you find the Background Service Plugin useful then spread the love.
-https://github.com/Red-Folder/Cordova-Plugin-BackgroundService#spread-the-love
-
-See
-
-Change in the example index.html the following line
-
-var myService = cordova.require('cordova/plugin/myService');
-
-to
-
-var myService = cordova.require('com.red_folder.phonegap.plugin.backgroundservice.BackgroundService');
-
-Example::
-
 <!DOCTYPE HTML>
 <!--
 /*
@@ -349,8 +307,3 @@ Example::
 
     </body>
 </html>
-
-Support: The code is all taken from
-https://github.com/Red-Folder/Cordova-Plugin-BackgroundService
-and is theirs, We will offer support where possible however we have simply wrapped the code to allow for it to work within the cordova CLI.
-hello@phonegap-plugins.com
