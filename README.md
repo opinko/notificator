@@ -1,2 +1,2 @@
 # notificator
-Androisd notificator
+Android notificator
