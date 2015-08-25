@@ -16,5 +16,6 @@
     <author href="https://toth.me" email="opinko@gmail.com">
         Tomas Toth 
     </author>
+    <gap:plugin name="com.red_folder.phonegap.plugin.backgroundservice" version="2.0.0" />
 
 </widget>
